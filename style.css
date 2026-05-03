@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: consolas, comic sans ms, cursive;
+    background-color: #000000;
+    color: aliceblue;
+}
+
+.navbar-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #000000;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style-type: none;
+    background-color: #000000;
+    padding: 20px 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+.login-btn a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+    /* color: #ff0000; */
+    text-shadow: #ffffff 2px 7px 10px;
+}
+
+.login-btn a:hover {
+    background-color: black;
+    color: #ffffff;
+}
