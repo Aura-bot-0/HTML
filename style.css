@@ -53,28 +53,7 @@ a{
     margin: 0 10px;
     transition: color 0.3s ease;
 }
-@media (max-width: 600px) {
-    .nav-links{
-        display: none;
-    }
 
-    .navbar{
-        padding: 20px 16px;
-    }
-    .main{
-        flex-direction: column;
-        text-align: center;
-    }
-    .content{
-        max-width: 100vw;
-        margin-bottom: 20px;
-    }
-    .image{
-        max-width: 90vw;
-        height: auto;
-    }
-
-}
 
 .nav-links a:hover{
     color: #ccc;
@@ -99,6 +78,35 @@ a{
 }
 
 img{
-    width: 65vw;
+    width: 35dvw;
     height: auto;
+}
+
+
+@media (max-width: 600px) {
+    .nav-links{
+        display: none;
+    }
+
+    .navbar{
+        padding: 20px 16px;
+    }
+    .main{
+        flex-direction: column;
+        text-align: center;
+    }
+    .content{
+        max-width: 100vw;
+        margin-bottom: 20px;
+        text-align: flex-start;
+    }
+    .image{
+        max-width: 90vw;
+        height: auto;
+    }
+    img{
+        width: 65vw;
+        height: auto;
+    }
+
 }
