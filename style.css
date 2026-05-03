@@ -1,64 +1,56 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    font-family: consolas, comic sans ms, cursive;
-    background-color: #000000;
-    color: aliceblue;
+body{
+    min-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(0deg,  #030009, #000041);
+    color: #fff;
 }
 
-.navbar-container {
+.navbar{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    background-color: #000000;
+    padding: 20px 20px;
 }
 
-.navbar {
+.logo{
+    font-size: 24px;
+    font-weight: 600;
+    justify-content: flex-start;
+}
+
+.nav-links{
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 20px;
-    list-style-type: none;
-    background-color: #000000;
-    padding: 20px 0;
+    justify-content: space-evenly;
 }
 
-.nav-link {
-    text-decoration: none;
-    color: aliceblue;
-    font-size: 20px;
-    transition: color 0.3s ease;
-}
-
-.logo {
-    font-size: 30px;
-    font-weight: bold;
-    color: aliceblue;
-}
-
-.login-btn a {
-    text-decoration: none;
-    font-size: 20px;
-    padding: 10px 20px;
-    background-color: #ffffff;
-    color: #000000;
+.login-btn{
+    justify-content: flex-end;
+    padding: 8px 16px;
+    background-color: #fff;
+    color: #000;
     border: none;
-    border-radius: 5px;
+    border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
-.nav-link:hover {
-    /* color: #ff0000; */
-    text-shadow: #ffffff 2px 7px 10px;
+.login-btn:hover{
+    background-color: #ccc;
 }
 
-.login-btn a:hover {
-    background-color: black;
-    color: #ffffff;
+@media (max-width: 600px) {
+    .nav-links{
+        display: none;
+    }
+
+    .navbar{
+        padding: 20px 16px;
+    }
 }
