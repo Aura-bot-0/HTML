@@ -83,6 +83,10 @@ img{
     height: auto;
 }
 
+img:hover{
+    animation: img-animation 2s infinite;
+}
+
 .booking-btn{
     margin-top: 20px;
     padding: 10px 20px;
@@ -136,4 +140,23 @@ img{
         height: auto;
     }
 
+}
+
+@keyframes img-animation {
+    0% {
+        transform: translate(0, 0);
+        transform: scaleX(0.75) scaleY(1.25);
+    }
+    25% {
+        transform: translate(-10px, 0);
+    }
+    50% {
+        transform: translate(0, -10px);
+    }
+    75% {
+        transform: translate(10px, 10px);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
 }
