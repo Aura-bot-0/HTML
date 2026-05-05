@@ -1,10 +1,10 @@
 # Lawndry Wallah
 
-A simple website for Lawndry Wallah, a laundry service.
+A simple responsive landing page for Lawndry Wallah, a laundry service.
 
 ## Description
 
-This project is a basic HTML and CSS website featuring a responsive navbar with logo, navigation links, and a login button. The background uses a gradient design.
+This project is built with HTML and CSS and showcases a clean marketing page for a laundry business. It includes a responsive navbar, hero section, call-to-action buttons, and a mobile-friendly hamburger menu.
 
 ## Technologies Used
 
@@ -13,10 +13,18 @@ This project is a basic HTML and CSS website featuring a responsive navbar with 
 
 ## How to View
 
-Open `index.html` in any modern web browser.
+1. Open `index.html` in any modern web browser.
+2. For best results, resize the browser window to mobile width to see the hamburger menu in action. ( Will be added shortly.)
 
 ## Features
 
-- Responsive design: On mobile devices, only the logo and login button are visible.
-- Gradient background
-- Clean navbar layout
+- Responsive layout for desktop and mobile screens
+- Gradient background styling
+- Hero section with a service CTA button
+- Simple and clean design for a landing page
+
+## Notes
+
+- The mobile menu is toggled via JavaScript using the hamburger button.
+- The project is static, so no build tools or server setup are required.
+
