@@ -93,10 +93,20 @@ img{
     border-radius: 4px;
     cursor: pointer;
     transition: background-color 0.3s ease;
+    transition: transform 1s ease;
 }
 .booking-btn:hover{
     background-color: #ccc;
+    transform: scale(1.5);
     color: #000;
+    transform: rotate(-8deg);
+}
+
+@media (min-width: 600px) and (max-width: 1024px) {
+    body {
+        font-size: small;
+        scale: inherit;
+    }
 }
 
 
