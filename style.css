@@ -81,7 +81,7 @@ a{
 img{
     width: 35dvw;
     height: auto;
-    animation: img-animation 2s infinite;
+    animation: img-animation 2s infinite ease-in-out;
 }
 
 .booking-btn{
@@ -93,14 +93,12 @@ img{
     border: none;
     border-radius: 4px;
     cursor: pointer;
-    transition: background-color 0.3s ease;
-    transition: transform 1s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 .booking-btn:hover{
     background-color: #ccc;
-    transform: scale(1.5);
     color: #000;
-    transform: rotate(-8deg);
+    transform: rotate(-8deg) scale(1.05);
 }
 
 @media (min-width: 600px) and (max-width: 1024px) {
@@ -141,19 +139,18 @@ img{
 
 @keyframes img-animation {
     0% {
-        transform: translate(0, 0);
-        transform: scaleX(0.75) scaleY(1.25);
+        transform: translate(0, 0) scale(1, 1);
     }
     25% {
-        transform: translate(-10px, 0);
+        transform: translate(15px, -8px) scaleX(1.1) scaleY(0.9);
     }
     50% {
-        transform: translate(-10px, 10px);
+        transform: translate(0, 18px) scaleX(0.9) scaleY(1.1);
     }
     75% {
-        transform: translate(0, 10px);
+        transform: translate(-15px, -8px) scaleX(1.1) scaleY(0.9);
     }
     100% {
-        transform: translate(0, 0);
+        transform: translate(0, 0) scale(1, 1);
     }
 }
