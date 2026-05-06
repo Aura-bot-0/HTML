@@ -27,6 +27,5 @@ This project is built with HTML and CSS and showcases a clean marketing page for
 ## Notes
 
 - The animated hero image uses CSS keyframes to move along a circular path while scaling at 25%, 50%, and 75% to create a squeezing effect.
-- The mobile menu is toggled via JavaScript using the hamburger button.
 - The project is static, so no build tools or server setup are required.
 
