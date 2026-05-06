@@ -21,10 +21,12 @@ This project is built with HTML and CSS and showcases a clean marketing page for
 - Responsive layout for desktop and mobile screens
 - Gradient background styling
 - Hero section with a service CTA button
+- Animated image with an orbit-like motion and squeeze effect
 - Simple and clean design for a landing page
 
 ## Notes
 
+- The animated hero image uses CSS keyframes to move along a circular path while scaling at 25%, 50%, and 75% to create a squeezing effect.
 - The mobile menu is toggled via JavaScript using the hamburger button.
 - The project is static, so no build tools or server setup are required.
 
